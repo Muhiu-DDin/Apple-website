@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto";
+}
+html , body{
+    width: 100vw;
+    height: 100vh;
+}
+#nav{
+height: 3rem;
+font-size: 0.9rem;
+padding: 0 5rem;
+}
+#nav ul li a{ 
+color: rgb(255, 255, 255);
+margin:0 0.5rem;
+}
+
+.hero1{
+    position: relative;
+    top: 3rem;
+    width: 100%;
+    height: 31.9rem;
+    background-image: url('./assets/hero1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero1-content{
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero1 h1 , .hero1 h5{
+    color: white;
+}
+.hero1 h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.hero1 h5{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.hero1 a , #portion2 a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.anchor2{
+margin-left:1rem;
+}
+.hero2{
+
+    margin-top:3.6rem;
+    width: 78.2rem;
+    height: 31.9rem;
+    background-image: url('./assets/herox.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#sec3{
+width: 101%;
+margin-top: 0.5rem;
+background-color: black;
+}
+
+#portion2 h1 , #portion2 h5{
+    color:#FFFFFF;
+}
+#portion1, #portion2{
+    width: 50%;
+}
+#portion1 img , #portion2 img{
+    width: 100%;  
+  }
+#portion2{
+    position: relative;
+}
+.watchandlogo img{
+    height: 5.5rem;
+    margin-right: -2rem;
+
+}
+.watchandlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+.series{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+}
+.portion2-content{
+    position: absolute;
+    top: 25rem;
+     margin-left: 5rem;  
+}
+#carouselExampleCaptions img{
+    height: 32rem;
+}
+#carouselExampleCaptions{
+    width: 100%;
+}
+#carouselExampleCaptions h1{
+    font-size:3rem;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;  
+    padding: 2rem 0; 
+    background-color: #F5F5F7;
+}
+footer ul{
+    font-size:0.8rem;
+}
+footer div{
+    margin-left: 3rem;
+}
+
+footer ul li{
+    margin-top: 0.7rem;
+    color: #0000008F;
+}
+
+/* ------------------------------------ */
+
+@media screen and (max-width:838px){
+    html{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:743px){
+    html{
+        font-size: 87%;
+    }
+
+    footer{ 
+        padding: 1rem 0; 
+    }
+    footer ul h5{
+        text-wrap:nowrap;
+    }
+    footer ul{
+        font-size:0.7rem;
+    }
+}
+
+@media screen and (max-width:676px){
+    html{
+        font-size: 65%;
+    }
+
+    footer{ 
+        padding: 1rem 0; 
+    }
+    footer ul h5{
+        text-wrap:nowrap;
+    }
+    footer ul{
+        font-size:0.7rem;
+    }
+    footer div{
+        margin-left: 2rem;
+    }
+    .navbar-toggler-icon{
+        position: relative;
+        top: -0.3rem;
+    }
+    .navbar-toggler{
+        position: relative;
+        top: -1rem;
+    }
+    .navbar-brand img{
+        position: relative;
+        top: -1rem;
+
+    }
+}
+
+@media screen and (max-width:663px){
+    html{
+        font-size:64%;
+    }
+    .navbar-brand img{
+        position: relative;
+        top: -1rem;
+
+    }
+    .navbar-toggler-icon{
+        position: relative;
+        top: -0.2rem;
+    }
+    .navbar-toggler{
+        position: relative;
+        top: -1rem;
+    }
+    footer div{
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width:556px){
+    html{
+        font-size:57%;
+    }
+    footer div{
+        margin-left: 1rem;
+    }
+     .navbar-toggler-icon{
+        position: relative;
+        top: -0.3rem;
+    }
+    .navbar-toggler{
+        position: relative;
+        top: -1.3rem;
+    }
+
+}
+
+@media screen and (max-width:447px){
+    html{
+        font-size:50%;
+    }
+    footer div{
+        margin-left: 0.8rem;
+    }
+     .navbar-toggler-icon{
+        position: relative;
+        top: -0.3rem;
+    }
+    .navbar-toggler{
+        position: relative;
+        top: -1.3rem;
+    }
+    .navbar-brand img{
+        position: relative;
+        top: -1.5rem;
+    }
+}
+@media screen and (max-width:400px){
+
+    html{
+        font-size:47%;
+    }
+    footer div{
+        margin-left: 0.4rem;
+    }
+}
+
+@media screen and (max-width:360px) and (min-width:200px){
+
+    html{
+        font-size:44%;
+    }
+    footer div{
+        margin-left: 0.4rem;
+    }
+    #nav{
+        height: 9rem;
+    }
+    .hero1{
+        height: 80rem;
+        padding-top: 8rem;
+    }
+    .navbar-brand img{
+        position: relative;
+        top: -2rem;
+        height: 14rem;
+    }
+    footer{
+        height: 40rem;
+        padding-top: 5rem;
+    }
+    footer div{
+        margin-left: 0rem;
+    }
+
+}
+
+
